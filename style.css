@@ -1,0 +1,74 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center;
+}
+
+/* index page */
+.recipelist {
+    font-size: 20px;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.button {
+    display: block;
+    background-color: rgb(246, 212, 217);
+    width: 200px;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* recipe pages */
+.img {
+    display: block;
+    margin: auto;
+}
+
+.resize {
+    width: 60%;
+    height: auto;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+.desc {
+    text-align: center;
+}
+
+.pink {
+    color: pink;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+h4, 
+li {
+    font-family: Arial, sans-serif;
+}
+
+h4 {
+    color: rgb(168, 141, 110);
+    padding: 0 5px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+.section {
+    background-color: rgb(234, 220, 205);
+    padding: 15px;
+    border-radius: 25px;
+    margin: 0 20px;
+}
