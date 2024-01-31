@@ -1,11 +1,16 @@
 body {
     width: 800px;
     margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: rgb(231, 217, 197);
+    color: rgb(86, 60, 40);
 }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', serif;
+h1, 
+h3 {
+    font-family: "Snell Roundhand", serif;
     text-align: center;
+    margin: 50px;
 }
 
 /* index page */
@@ -18,9 +23,10 @@ h1 {
 
 .button {
     display: block;
-    background-color: rgb(246, 212, 217);
+    background-color: burlywood;
     width: 200px;
     padding: 10px;
+    border: 2px solid rgb(86, 60, 40);
     border-radius: 25px;
     margin: 20px auto;
     text-align: center;
@@ -29,7 +35,7 @@ h1 {
 /* recipe pages */
 .img {
     display: block;
-    margin: auto;
+    margin: 50px auto;
 }
 
 .resize {
@@ -38,37 +44,35 @@ h1 {
 }
 
 h3 {
-    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .desc {
     text-align: center;
-}
-
-.pink {
-    color: pink;
-    font-family: 'Brush Script MT', cursive;
-    font-size: 24px;
-    margin-bottom: -10px;
-}
-
-h4, 
-li {
-    font-family: Arial, sans-serif;
+    padding: 0 40px;
 }
 
 h4 {
-    color: rgb(168, 141, 110);
-    padding: 0 5px;
+    color: burlywood;
+    padding: 0 10px;
+    margin-bottom: 0;
 }
 
 li {
-    padding: 5px 0;
+    padding: 4px 0;
 }
 
 .section {
-    background-color: rgb(234, 220, 205);
-    padding: 15px;
+    background-color: #fffbee;
+    padding: 30px;
     border-radius: 25px;
     margin: 0 20px;
+}
+
+a:visited {
+    color: #fffbee;
+}
+
+a:unvisited {
+    color:rgb(86, 60, 40);
 }
